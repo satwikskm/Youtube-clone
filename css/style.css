@@ -129,11 +129,17 @@ span,i {
     .sidebar span{
         display: none;
     }
+    .card p{
+        font-size: 15px;
+    }
   }
 
   @media (max-width: 531px) {
     .navbar-center{
         display: none;
+    }
+    .card p{
+        font-size: small;
     }
   }
   @media (max-width: 329px) {
@@ -142,6 +148,9 @@ span,i {
     }
     .sidebar {
         display: none;
+    }
+    .card p{
+        font-size: 20px;
     }
   }
   
